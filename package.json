@@ -1,6 +1,9 @@
 {
   "name": "assignment3",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.16.0"
+  },
   "description": "wt assignment nr 3",
   "main": "server.js",
   "scripts": {
