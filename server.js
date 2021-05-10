@@ -27,7 +27,7 @@ mongoose.connect('mongodb+srv://christian:WtAss3RC75@cluster0.b3wqm.mongodb.net/
 
 // set place for sessions to be stored
 const save_session = new MongoDBSession({
-  uri: 'mongodb://localhost/blog',
+  uri: 'mongodb+srv://christian:WtAss3RC75@cluster0.b3wqm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
   collection: 'sessions'
 })
 
