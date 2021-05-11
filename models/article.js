@@ -36,6 +36,7 @@ const articleSchema = new mongoose.Schema({
   }
 })
 
+// method to create a slug and sanitize the markdown language
 articleSchema.pre('validate', function(next) {
   if (this.title) {
     this.slug = slugify(this.title, { lower: true, strict: true })
